@@ -1,0 +1,16 @@
+.contColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 0px;
+    gap: 15px;
+
+    width: 27.88%;
+    height: 100vh;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    bottom: 4.47%;
+
+    background: royalblue;
+}
