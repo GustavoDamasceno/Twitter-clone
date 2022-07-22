@@ -1,0 +1,11 @@
+.lefttr{
+    position: absolute;
+    width: 96vw;
+    right: 29.9999%;
+    top: 0%;
+    bottom: 99.89%;
+
+    /* Dark 7 */
+    background: #EBEEF0;
+    transform: rotate(90deg);
+}

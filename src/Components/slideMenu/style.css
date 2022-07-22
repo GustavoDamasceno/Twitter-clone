@@ -3,8 +3,6 @@
     width: 21.9%;
     height: 100vh;
     top: 0px;
-
-    background: blue;
 }
 
 .topMenu{
@@ -14,7 +12,6 @@
     left: 10px;
     top: 0px;
 
-    background: turquoise;
 }
 
 .profileMenu{
@@ -24,7 +21,6 @@
     left: 10px;
     bottom: 0;
 
-    background: teal;
 }
 
 .profileMenu img{
@@ -45,7 +41,7 @@
     font-family: 'SF Compact Display';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 19px;
 
 
@@ -58,16 +54,89 @@
     width: 121px;
     height: 19px;
     left: 49px;
-    top: 30px;
+    top: 28px;
 
     font-family: 'SF Compact Display';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 19px;
 
     letter-spacing: -0.017em;
 
     /* Dark 5 */
     color: #5B7083;
+}
+
+.profileMenu button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    top: 13px;
+
+    border-radius: 50%;
+    border: none;
+}
+
+.profileMenu button:hover{
+    background: gray;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.profileMenu button img{
+    position: absolute;
+    left: 23.96%;
+    right: 23.96%;
+    top: 42.71%;
+    bottom: 42.71%;
+}
+
+.logott{
+    width: 100%;
+    height: 8.66%;
+}
+
+.logott img{
+    position: absolute;
+    left: 10px;
+    top: 1.8%;
+}
+
+.tweetmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 93px;
+    gap: 10px;
+
+    position: relative;
+    width: 89.41%;
+    height: 12.9%;
+    top: 8.5%;
+
+    /* Primary Blue */
+    background: #1DA1F2;
+    border-radius: 9999px;
+    border: none;
+    
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 127% */
+
+    text-align: center;
+
+    /* White */
+    color: #FFFFFF;
+
+}
+
+.tweetmenu:hover{
+    cursor: pointer;
 }

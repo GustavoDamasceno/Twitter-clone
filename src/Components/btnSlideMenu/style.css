@@ -1,0 +1,37 @@
+.contBTN{
+    width: 100%;
+    height: 9.8%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.contBTN img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 2%;
+    top: 15px;
+}
+
+.contBTN p{
+    position: relative;
+    height: 23px;
+    top: 19px;
+    margin-left: 20px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+
+
+    /* Black */
+    color: #0F1419;
+}
+
+.contBTN p:hover{
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
