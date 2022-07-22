@@ -1,0 +1,73 @@
+.contMenu{
+    position: absolute;
+    width: 21.9%;
+    height: 100vh;
+    top: 0px;
+
+    background: blue;
+}
+
+.topMenu{
+    position: absolute;
+    width: 92.7%;
+    height: 68%;
+    left: 10px;
+    top: 0px;
+
+    background: turquoise;
+}
+
+.profileMenu{
+    position: absolute;
+    width: 92.7%;
+    height: 7.7%;
+    left: 10px;
+    bottom: 0;
+
+    background: teal;
+}
+
+.profileMenu img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 15%;
+    border-radius: 50%;
+}
+
+.profileMenu h3{
+    position: absolute;
+    width: 87px;
+    height: 19px;
+    left: 49px;
+    top: 11px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    /* Black */
+    color: #0F1419;
+}
+
+.profileMenu p{
+    position: absolute;
+    width: 121px;
+    height: 19px;
+    left: 49px;
+    top: 30px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: -0.017em;
+
+    /* Dark 5 */
+    color: #5B7083;
+}
