@@ -12,11 +12,48 @@
 .righttr{
     position: absolute;
     width: 96vw;
-    right: -19.999%;
+    right: -18.999%;
     top: 0%;
     bottom: 99.89%;
 
 
     background: #EBEEF0;
     transform: rotate(-90deg);
+}
+
+.namepage{
+    position: absolute;
+    width: 48.9%;
+    height: 7%;
+    border-bottom: 1px solid #EBEEF0;
+
+    right: 28.9999%;
+
+}
+
+.namepage h2{
+    position: absolute;
+    width: 52px;
+    height: 23px;
+    left: 15px;
+    top: 15px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #0F1419;
+}
+
+.namepage img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 560px;
+    top: 15px;
+
+    cursor: pointer;
+
 }

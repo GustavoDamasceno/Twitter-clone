@@ -12,5 +12,130 @@
     top: 0%;
     bottom: 4.47%;
 
-    background: royalblue;
 }
+
+.search{
+    position: relative;
+    width: 95.4%;
+    height: 39px;
+
+    background: #EBEEF0;
+    border-radius: 99999px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.search img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 16px;
+    top: 10px;
+}
+
+.search input{
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 13%;
+    top: 10px;
+
+    background: transparent;
+    border: none;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: -0.008em;
+    color: #5B7083;
+}
+
+.contnews{
+    position: relative;
+    top: 0%;
+    padding: 0px;
+
+    width: 95.4%;
+    height: 56%;
+
+    background: #F7F9FA;
+    border-radius: 16px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contnews h2{
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 16px;
+    top: 11px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    letter-spacing: 0.014em;
+
+    color: #0F1419;
+}
+
+.contfollow{
+    position: relative;
+    margin-top: 2%;
+    padding: 0px;
+
+    width: 95.4%;
+    height: 20%;
+
+    background: #F7F9FA;
+    border-radius: 16px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.contfollow h2{
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 16px;
+    top: 11px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+
+    color: #0F1419;
+}
+
+.direitos{
+    width: 70%;
+    height: 38px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #5B7083;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
