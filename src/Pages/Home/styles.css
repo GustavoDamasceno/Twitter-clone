@@ -17,7 +17,7 @@
     bottom: 99.89%;
 
 
-    background: #EBEEF0;
+    background: #f0ebec;
     transform: rotate(-90deg);
 }
 
@@ -56,4 +56,110 @@
 
     cursor: pointer;
 
+}
+
+.tweet{
+    position: absolute;
+    width: 48.9%;
+    height: 17%;
+
+    right: 28.9999%;
+    margin-top: 3.5%;
+
+    border-bottom: 1px solid #EBEEF0;
+}
+
+.contbtns{
+    position: relative;
+    width: 30.1%;
+    height: 20.4%;
+    left: 70px;
+    top: 67px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns{
+    width: 24px;
+    height: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btns img{
+    height: 100%;
+}
+
+.btntweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 77px;
+    height: 39px;
+    right: 10px;
+    top: 59px;
+
+    /* Primary Blue */
+    background: #1DA1F2;
+    opacity: 0.5;
+    border-radius: 9999px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+
+    /* White */
+    color: #FFFFFF;
+}
+
+.btntweet:hover{
+    opacity: 1;
+}
+
+.blprofile{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 15px;
+    top: 10px;
+
+    border-radius: 99999px;
+}
+
+.txttweet{
+    position: absolute;
+    width: 503px;
+    height: 44px;
+    left: 71px;
+    top: 15px;
+
+    font-family: 'SF Compact Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: -0.015em;
+    color: #5B7083;
+    resize: none;
+    border: none;
+
+}
+
+.separador{
+    position: absolute;
+    width: 49%;
+    height: 10px;
+    right: 28.9999%;
+    margin-top: 11.65%;
+
+    background: #F7F9FA;
 }
