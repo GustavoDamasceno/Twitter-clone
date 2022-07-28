@@ -10,7 +10,7 @@ import media from "../../Images/media.svg"
 import './styles.css'
 
 function Home() {
-  return (
+  return ( 
     <>
       <SlideMenu/>
       <tr className="lefttr"></tr>
