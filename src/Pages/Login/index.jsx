@@ -1,5 +1,6 @@
 import './style.css'
 import Ilistracao from '../../Images/Ilustração.svg'
+import Logo from '../../Images/Logo.svg'
 
 function Login () {
     return(
@@ -14,7 +15,10 @@ function Login () {
                 <p className='autoria'>© 2022 Twitter, Inc.</p>
             </div>
 
-            
+            <div className='conttop'>
+                <img src={Logo}></img>
+                <p>Não tem uma conta?</p>
+            </div>
         </>
     )
 }

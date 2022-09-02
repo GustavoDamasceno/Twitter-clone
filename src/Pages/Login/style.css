@@ -82,3 +82,22 @@
 
     color: #FAFAFA;
 }
+
+.conttop{
+    position: absolute;
+    width: 31%;
+    height: 5%;
+    left: 62.15%;
+    top: 8.15%;
+
+    background: #161111;
+
+}
+
+.conttop img{
+    position: absolute;
+    left: 0%;
+    right: 88.54%;
+    top: 0%;
+    bottom: 0%;
+}
