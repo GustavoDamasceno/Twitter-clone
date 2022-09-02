@@ -90,8 +90,6 @@
     left: 62.15%;
     top: 8.15%;
 
-    background: #161111;
-
 }
 
 .conttop img{
@@ -100,4 +98,57 @@
     right: 88.54%;
     top: 0%;
     bottom: 0%;
+}
+
+.conttop p{
+    position: absolute;
+    left: 39.78%;
+    right: 0%;
+    top: 28.57%;
+    bottom: 26.19%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+
+    color: #191D23;
+}
+
+.linktocadastro{
+    color: #1D9BF0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toptextlog{
+    position: absolute;
+    width: 22%;
+    height: 10.4%;
+    left: 62.15%;
+    top: 19%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #212121;
+}
+
+.middletextlog{
+    position: absolute;
+    height: 27px;
+    left: 62.15%;
+    top: 35%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+
+    color: #757575;
 }
