@@ -3,6 +3,7 @@ import avatar from '../../Images/Small.svg'
 import ImgProfileMenu from '../../Images/Group.svg'
 import BtnSlideMenu from '../btnSlideMenu'
 import Logo from '../../Images/Logo.svg'
+import { Link } from 'react-router-dom'
 
 function SlideMenu() {
     return (
@@ -17,7 +18,7 @@ function SlideMenu() {
           <BtnSlideMenu photo={'messages'} text={'Messages'}/>
           <BtnSlideMenu photo={'book'} text={'Bookmarks'}/>
           <BtnSlideMenu photo={'lists'} text={'Lists'}/>
-          <BtnSlideMenu photo={'profile'} text={'Profile'}/>
+          <Link className='linkprofile' to='/perfil'><BtnSlideMenu photo={'profile'} text={'Profile'}/></Link>        
           <BtnSlideMenu photo={'more'} text={'More'}/>
           <button className='tweetmenu'>Tweet</button>
         </div>

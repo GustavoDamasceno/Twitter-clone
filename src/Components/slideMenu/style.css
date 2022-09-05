@@ -49,6 +49,10 @@
     color: #0F1419;
 }
 
+.linkprofile{
+    text-decoration: none;
+}
+
 .profileMenu p{
     position: absolute;
     width: 121px;
